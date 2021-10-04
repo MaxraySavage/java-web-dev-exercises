@@ -93,4 +93,12 @@ public class Student {
     public int hashCode() {
         return Objects.hash(getName(), getStudentId(), getNumberOfCredits(), getGpa());
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", studentId=" + studentId +
+                '}';
+    }
 }
