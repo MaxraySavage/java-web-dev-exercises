@@ -24,10 +24,10 @@ public class CarTest {
     //TODO: constructor sets gasTankLevel properly
     @Test
     public void testInitialGasTank() {
-        //assertFalse(test_car.getGasTankSize() == 0);
-        //assertTrue(test_car.getGasTankSize() == 10);
+        //assertFalse(test_car.getGasTankLevel() == 0);
+        //assertTrue(test_car.getGasTankLevel() == 10);
 
-        assertEquals("Constructed car has correct initial gas tank value",10, test_car.getGasTankSize(), 0.001);
+        assertEquals("Constructed car has correct initial gas tank value",10, test_car.getGasTankLevel(), 0.001);
     }
     //TODO: gasTankLevel is accurate after driving within tank range
     @Test
